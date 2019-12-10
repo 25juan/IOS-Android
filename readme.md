@@ -398,5 +398,13 @@
     
     ListHeaderComponent这个属性的赋值千万不要写成了ListHeaderComponent={this.renderHeader}，传一个React元素过去，这边在flatlist更新的时候能够提高渲染性能。footer同理。
 
+1. jetify 修复AndroidX的问题`找不到android.support.v4.view.ViewPager`
+    **解决方案**
+    ```
+    cd android
+    ./gradlew clean
+    npx jetify
+    ```
+
 
 
