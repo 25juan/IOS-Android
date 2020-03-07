@@ -405,6 +405,17 @@
     ./gradlew clean
     npx jetify
     ```
+    
+1. 修复IOS webview 长按显示英文问题，在info.plist里面添加
+    **解决方案**
+    ```
+    <key>CFBundleLocalizations</key>
+	<array>
+		<string>zh_CN</string>
+		<string>en</string>
+	</array>
+    ```
+
 
 
 
