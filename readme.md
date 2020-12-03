@@ -21,6 +21,7 @@
 ### ReactNative错误集合
 
 本文章专门用于记录在React Native 开发中所遇到的问题，以便于以后查阅。
+1. 初始化RN ts项目 `npx react-native init MyApp --template typescript`
 
 1. `java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Unable to merge dex`
 
